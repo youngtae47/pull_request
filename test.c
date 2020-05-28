@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//김민철
+
 void i_sort(int *d, int idx1, int idx2){
     int i, j=0;
     for(i=idx1+1 ; i<idx2+1 ; i++){
@@ -22,6 +22,7 @@ int main(int argc, char **argv){
 
     printf("Sort Start");
     i_sort(d, 0, n-1);
+    printf("print");
 
     fclose(input);
     free(d);

@@ -25,4 +25,6 @@ int main(int argc, char **argv){
 
     fclose(input);
     free(d);
+
+    return 0;
 }

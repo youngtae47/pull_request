@@ -20,6 +20,7 @@ int main(int argc, char **argv){
     d = malloc(sizeof(int)*n);
     e = fread(d, sizeof(int), n, input);
 
+    printf("Sort Start");
     i_sort(d, 0, n-1);
 
     fclose(input);

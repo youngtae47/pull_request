@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void i_sort(int *d, int idx1, int idx2){
+void insertion_sort(int *d, int idx1, int idx2){
     int i, j=0;
     for(i=idx1+1 ; i<idx2+1 ; i++){
         int tmp = d[i];

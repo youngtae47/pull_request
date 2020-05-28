@@ -21,7 +21,7 @@ int main(int argc, char **argv){
     e = fread(d, sizeof(int), n, input);
 
     printf("Sort Start");
-    i_sort(d, 0, n-1);
+    insertion_sort(d, 0, n-1);
     printf("print");
 
     fclose(input);

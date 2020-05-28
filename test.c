@@ -23,6 +23,8 @@ int main(int argc, char **argv){
     printf("Sort Start");
     insertion_sort(d, 0, n-1);
     printf("print");
+   
+    printf("sort finish");
 
     fclose(input);
     free(d);
